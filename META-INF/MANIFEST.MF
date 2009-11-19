@@ -12,7 +12,6 @@ Import-Package: fr.imag.adele.cadse.core;version="2.2.1",
  fr.imag.adele.cadse.core.oper;version="2.2.1",
  fr.imag.adele.fede.workspace.as.operationfactory;version="2.2.1",
  fr.imag.adele.fede.workspace.as.test;version="2.2.1",
- fr.imag.adele.packageinfo;version="1.0.0",
  junit.framework;version="[4.3.0,5.0.0)",
  org.eclipse.core.runtime,
  org.eclipse.osgi.util;version="1.1.0"
