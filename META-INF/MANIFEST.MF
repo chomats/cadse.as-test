@@ -1,20 +1,19 @@
 Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: fr.imag.adele.cadse.as.workspace.test
-Bundle-SymbolicName: fr.imag.adele.cadse.as.workspace.test;singleton:=true
+Export-Package: fr.imag.adele.fede.workspace.as.test;uses:="fr.imag.ad
+ ele.cadse.api,fr.imag.adele.cadse.util,junit.framework,fr.imag.adele.
+ fede.workspace.as.operationfactory"
+Built-By: chomats
+Tool: Bnd-0.0.357
+Bundle-Name: fr.imag.adele.cadse.as.test
+Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: Adele/LIG/ Grenoble University, France
-Bundle-Version: 2.2.1.qualifier
-Bundle-Localization: plugin
-Bundle-ClassPath: .
-Eclipse-LazyStart: false
-Export-Package: fr.imag.adele.fede.workspace.as.test;version="2.2.1"
-Import-Package: fr.imag.adele.cadse.core;version="2.2.1",
- fr.imag.adele.cadse.core.oper;version="2.2.1",
- fr.imag.adele.fede.workspace.as.operationfactory;version="2.2.1",
- fr.imag.adele.fede.workspace.as.test;version="2.2.1",
- junit.framework;version="[4.3.0,5.0.0)",
- org.eclipse.core.runtime,
- org.eclipse.osgi.util;version="1.1.0"
-Created-By: envsam
-Bundle-Description: Bundle fr.imag.adele.cadse.as.workspace.test
+Bundle-Version: 2.3.0.SNAPSHOT
+Build-Jdk: 1.6.0_17
+Bnd-LastModified: 1260991106618
+Bundle-ManifestVersion: 2
+Import-Package: fr.imag.adele.cadse.api,fr.imag.adele.cadse.util,fr.im
+ ag.adele.fede.workspace.as.operationfactory,fr.imag.adele.fede.worksp
+ ace.as.test,junit.framework
+Bundle-DocURL: http://www-adele.imag.fr/
+Bundle-SymbolicName: fr.imag.adele.cadse.as.test
 

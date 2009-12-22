@@ -22,20 +22,15 @@ import java.io.File;
 
 import junit.framework.TestSuite;
 
-import org.eclipse.core.runtime.IProgressMonitor;
 
 import fr.imag.adele.cadse.core.oper.WSOperation;
+import fr.imag.adele.cadse.util.IProgressMonitor;
 import fr.imag.adele.fede.workspace.as.operationfactory.IOperationFactory;
 
 /**
  * 
  */
 public interface ITest {
-
-	/**
-	 * @generated
-	 */
-	String	AS_ID	= "AS.Workspace.Test";
 
 	/** return true if the test is enable */
 	public boolean isEnableTests();
