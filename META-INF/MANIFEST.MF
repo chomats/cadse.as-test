@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Export-Package: fr.imag.adele.fede.workspace.as.test;uses:="fr.imag.ad
- ele.cadse.api,fr.imag.adele.cadse.util,junit.framework,fr.imag.adele.
- fede.workspace.as.operationfactory"
+ ele.cadse.util,junit.framework,fr.imag.adele.fede.workspace.as.operat
+ ionfactory,fr.imag.adele.cadse.core.oper,fr.imag.adele.cadse.core"
 Built-By: chomats
 Tool: Bnd-0.0.357
 Bundle-Name: fr.imag.adele.cadse.as.test
@@ -9,11 +9,11 @@ Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: Adele/LIG/ Grenoble University, France
 Bundle-Version: 2.3.0.SNAPSHOT
 Build-Jdk: 1.6.0_17
-Bnd-LastModified: 1260991106618
+Bnd-LastModified: 1261487344620
 Bundle-ManifestVersion: 2
-Import-Package: fr.imag.adele.cadse.api,fr.imag.adele.cadse.util,fr.im
- ag.adele.fede.workspace.as.operationfactory,fr.imag.adele.fede.worksp
- ace.as.test,junit.framework
+Import-Package: fr.imag.adele.cadse.core,fr.imag.adele.cadse.core.oper
+ ,fr.imag.adele.cadse.util,fr.imag.adele.fede.workspace.as.operationfa
+ ctory,fr.imag.adele.fede.workspace.as.test,junit.framework
 Bundle-DocURL: http://www-adele.imag.fr/
 Bundle-SymbolicName: fr.imag.adele.cadse.as.test
 
